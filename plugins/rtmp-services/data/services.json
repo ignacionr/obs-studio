@@ -282,10 +282,20 @@
             "name": "DailyMotion",
             "common": true,
             "servers": [
-                {
-                    "name": "Primary",
-                    "url": "rtmp://publish.dailymotion.com/publish-dm"
-                }
+              {
+                "name": "Primary",
+                "url": "rtmp://publish.dailymotion.com/publish-dm"
+              }
+            ]
+        },
+        {
+            "name": "Meridix",
+            "common": true,
+            "servers": [
+              {
+                "name": "Primary",
+                "url": "rtmp://publish.meridix.com:1935/live"
+              }
             ]
         },
         {
